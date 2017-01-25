@@ -1,0 +1,9 @@
+ import java.rmi.*;
+
+public interface ReceiveMessageInterface extends Remote{
+  String receiveMessage(String x) throws RemoteException;
+  Double add(Double x,Double y) throws RemoteException;
+  Double add(Double x,Double y) throws RemoteException;
+  Double add(Double x,Double y) throws RemoteException;
+  Double add(Double x,Double y) throws RemoteException;
+}
